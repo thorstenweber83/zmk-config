@@ -1,0 +1,6 @@
+&i2c0 {
+	compatible = "nordic,nrf-twi";
+	// assign free pins
+	sda-pin = <22>; /* D4/A6 */
+	scl-pin = <24>; /* D5 */
+};
