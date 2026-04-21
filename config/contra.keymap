@@ -38,7 +38,7 @@
         ADJUST {
             bindings = <
                 &bootloader     &kp RA(Q)  &trans     &trans     &trans     &trans      &kp RA(Y)  &trans     &trans     &trans     &kp RA(P)  &bt BT_CLR    
-                &reset     &trans     &kp RA(S)  &trans     &trans     &trans      &trans     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans    
+                &sys_reset &trans     &kp RA(S)  &trans     &trans     &trans      &trans     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans    
                 &trans     &trans     &trans     &trans     &trans     &trans      &trans     &trans     &trans     &trans     &trans     &trans    
                 &trans     &trans     &trans     &trans     &trans     &trans      &trans     &trans     &bt BT_PRV     &trans     &trans     &bt BT_NXT    
             >;
