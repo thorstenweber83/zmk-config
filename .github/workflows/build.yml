@@ -8,7 +8,7 @@ jobs:
     name: Build Test
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
       - name: Cache west modules
         uses: actions/cache@v5
         env:
