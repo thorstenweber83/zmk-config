@@ -4,7 +4,6 @@
 	oled: ssd1306@3c {
 		compatible = "solomon,ssd1306fb";
 		reg = <0x3c>;
-		label = "DISPLAY";
 		width = <128>;
 		height = <32>;
 		segment-offset = <0>;
@@ -15,5 +14,6 @@
 		com-invdir;
 		com-sequential;
 		prechargep = <0x22>;
+		inversion-on;
 	};
 };
