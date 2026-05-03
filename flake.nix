@@ -20,6 +20,7 @@
     {
       packages = forAllSystems (system: rec {
         default = kyria;
+        firmware = default;
 
         kyria = zmk-nix.legacyPackages.${system}.buildSplitKeyboard {
           name = "kyria";
