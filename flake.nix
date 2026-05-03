@@ -81,8 +81,8 @@
           };
         };
 
-        flash-kyria = zmk-nix.packages.${system}.flash.override { inherit kyria; };
-        flash-contra = zmk-nix.packages.${system}.flash.override { inherit contra; };
+        flash-kyria = zmk-nix.packages.${system}.flash.override { firmware = kyria; };
+        flash-contra = zmk-nix.packages.${system}.flash.override { firmware = contra; };
         update = zmk-nix.packages.${system}.update;
       });
 
