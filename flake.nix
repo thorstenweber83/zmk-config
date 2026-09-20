@@ -43,7 +43,7 @@
           board = "nice_nano@1.0.0";
           shield = "kyria_%PART%";
 
-          zephyrDepsHash = "sha256-mUJpGWlU+rGbcWtKs/SuombCJ3RcIDMTiuMicwLX1D4=";
+          zephyrDepsHash = "sha256-559/YmKBzImkf7McFrU8mUmqXEWAQ/VH8bsFGDxhn0c=";
 
           meta = {
             description = "ZMK firmware";
@@ -73,7 +73,7 @@
           board = "nice_nano@1.0.0";
           shield = "contra";
 
-          zephyrDepsHash = "sha256-mUJpGWlU+rGbcWtKs/SuombCJ3RcIDMTiuMicwLX1D4=";
+          zephyrDepsHash = "sha256-559/YmKBzImkf7McFrU8mUmqXEWAQ/VH8bsFGDxhn0c=";
 
           meta = {
             description = "ZMK firmware";
